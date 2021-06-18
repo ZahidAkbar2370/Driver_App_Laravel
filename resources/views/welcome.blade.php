@@ -15,7 +15,11 @@
                                                         <div class="productinfo text-center">
                                                             <img src="images/{{$drivers->image}}" width="250px" height="190px" alt="" />
                                                             <h4 style="color: #FE980F">{{$drivers->name}}</h4>
+                                                            @if(!empty(Auth::user()))
                                                             <a href="view-driver-deatail/{{$drivers->user_id}}"><button class="btn btn-primary" style="margin-bottom: 10px">Contact</button></a>
+                                                            @else
+                                                                 <a href="{{url('login')}}"><button class="btn btn-primary" style="margin-bottom: 10px">Contact</button></a>
+                                                            @endif
                                                         </div>
                                                         
                                                     </div>
