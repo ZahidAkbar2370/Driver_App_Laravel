@@ -3,9 +3,12 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        <div class="col-md-2">
+            
+        </div>
         <div class="col-md-8">
             <div class="card">
-                <div class="card-header"><center><h1>{{ __('Register') }}</h1></center></div>
+                <div class="card-header"><center><h1>{{ __('Join Us Free') }}</h1></center></div>
                 <br>
 
                 <div class="card-body">

@@ -2,6 +2,9 @@
 @section('content')
 <div class="container">
     <div class="row justify-content-center">
+        <div class="col-md-2">
+            
+        </div>
         <div class="col-md-8">
             <div class="card">
                 <div class="card-header"><center><h1>{{ __('Driver Profile') }}</h1></center></div>
@@ -17,7 +20,7 @@
                             <label for="driver_name" class="col-md-4 col-form-label text-md-right">Driver Name</label>
 
                             <div class="col-md-6">
-                                <input id="driver_name" type="text" class="form-control" name="driver_name" value="{{$values->name}}" autocomplete="driver_name" autofocus>
+                                <input id="driver_name" type="text" class="form-control" name="driver_name" placeholder="Driver Name" value="{{$values->name}}" autocomplete="driver_name" autofocus>
                             </div>
                         </div>
 
@@ -25,7 +28,7 @@
                             <label for="mobile_no" class="col-md-4 col-form-label text-md-right">Mobile No</label>
 
                             <div class="col-md-6">
-                                <input id="mobile_no" type="number" class="form-control" name="mobile_no" value="{{$values->mobile_no}}" autocomplete="mobile_no" autofocus>
+                                <input id="mobile_no" type="number" class="form-control" name="mobile_no" placeholder="Mobile No" value="{{$values->mobile_no}}" autocomplete="mobile_no" autofocus>
                             </div>
                         </div>
 
@@ -33,7 +36,7 @@
                             <label for="whatsapp_no" class="col-md-4 col-form-label text-md-right">Whatapp No</label>
 
                             <div class="col-md-6">
-                                <input id="whatsapp_no" type="number" class="form-control" name="whatsapp_no" value="{{$values->whatsapp_no}}" autocomplete="whatsapp_no" autofocus>
+                                <input id="whatsapp_no" type="number" class="form-control" name="whatsapp_no" placeholder="Whatapp No" value="{{$values->whatsapp_no}}" autocomplete="whatsapp_no" autofocus>
                             </div>
                         </div>
 
@@ -41,7 +44,7 @@
                             <label for="cnic_no" class="col-md-4 col-form-label text-md-right">CNIC No</label>
 
                             <div class="col-md-6">
-                                <input id="cnic_no" type="number" class="form-control" name="cnic_no" value="{{$values->cnic_no}}" autocomplete="cnic_no" autofocus>
+                                <input id="cnic_no" type="number" class="form-control" name="cnic_no" placeholder="CNIC No" value="{{$values->cnic_no}}" autocomplete="cnic_no" autofocus>
                             </div>
                         </div>
 
@@ -57,7 +60,7 @@
                             <label for="domicile" class="col-md-4 col-form-label text-md-right">Domicile</label>
 
                             <div class="col-md-6">
-                                <input id="domicile" type="text" class="form-control" name="domicile" value="{{$values->domicile}}" autocomplete="domicile" autofocus>
+                                <input id="domicile" type="text" class="form-control" name="domicile" placeholder="Domicile" value="{{$values->domicile}}" autocomplete="domicile" autofocus>
                             </div>
                         </div>
 
@@ -65,7 +68,7 @@
                             <label for="vehicle_no" class="col-md-4 col-form-label text-md-right">Vehicle No</label>
 
                             <div class="col-md-6">
-                                <input id="vehicle_no" type="text" class="form-control" name="vehicle_no" value="{{$values->vehicle_no}}" autocomplete="vehicle_no" autofocus>
+                                <input id="vehicle_no" type="text" class="form-control" name="vehicle_no" value="{{$values->vehicle_no}}" placeholder="Vehicle No" autocomplete="vehicle_no" autofocus>
                             </div>
                         </div>
 
@@ -73,7 +76,7 @@
                             <label for="vehicle_type" class="col-md-4 col-form-label text-md-right">Vehicle Type</label>
 
                             <div class="col-md-6">
-                                <input id="vehicle_type" type="text" class="form-control" name="vehicle_type" value="{{$values->vehicle_type}}" autocomplete="vehicle_type" autofocus>
+                                <input id="vehicle_type" type="text" class="form-control" name="vehicle_type" placeholder="Vehicle Type" value="{{$values->vehicle_type}}" autocomplete="vehicle_type" autofocus>
                             </div>
                         </div>
 
@@ -81,7 +84,7 @@
                             <label for="license_no" class="col-md-4 col-form-label text-md-right">License No</label>
 
                             <div class="col-md-6">
-                                <input id="license_no" type="text" class="form-control" name="license_no" value="{{$values->license_no}}" autocomplete="license_no" autofocus>
+                                <input id="license_no" type="text" class="form-control" name="license_no" placeholder="License No" value="{{$values->license_no}}" autocomplete="license_no" autofocus>
                             </div>
                         </div>
 

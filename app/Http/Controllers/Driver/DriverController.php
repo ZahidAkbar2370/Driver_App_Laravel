@@ -7,6 +7,7 @@ use Illuminate\Http\Request;
 use App\Models\Driver;
 use Auth;
 use DB;
+
 class DriverController extends Controller
 {
     public function profile()
@@ -28,11 +29,10 @@ class DriverController extends Controller
 
                 if($req->hasFile("image"))
                 {
-                    // Upload image into server
                      $image=$req->file("image");
                      $image->move("images",$image->getClientOriginalName());
                 }
-        
+
                 $updateDriver = Driver::where("user_id",Auth::user()->id)->update([
 
                 'name' => $req->driver_name,
