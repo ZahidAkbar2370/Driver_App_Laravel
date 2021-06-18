@@ -20,4 +20,5 @@ class AppController extends Controller
 
        return view("view_driver_detail",["driver_detail" => $driver_detail]);
    }
+
 }

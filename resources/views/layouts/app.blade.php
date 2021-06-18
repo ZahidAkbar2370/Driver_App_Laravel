@@ -69,10 +69,10 @@
                         <div class="social-icons pull-right">
                             <ul class="nav navbar-nav">
                                 <li><a href="#" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                                <!-- <li><a href="https://twitter.com/zahid_jakhar" target="_blank"><i class="fa fa-twitter"></i></a></li>
-                                <li><a href="https://www.linkedin.com/in/zahid-akbar-jakhar-62467519b/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
-                                <li class="sociallinks"><a href="https://www.instagram.com/zahidjakhar2370/" target="_blank"><i class="fa fa-instagram"></i></a></li>
-                                <li class="sociallinks"><a href="https://www.youtube.com/channel/UC9rEJ6dG3TTHz8GFUjpNuqQ" target="_blank"><i class="fa fa-youtube"></i></a></li> -->
+                                <li><a href="#" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                                <li><a href="#" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+                                <li class="sociallinks"><a href="#" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                                <li class="sociallinks"><a href="#" target="_blank"><i class="fa fa-youtube"></i></a></li>
                             </ul>
                         </div>
                     </div>
